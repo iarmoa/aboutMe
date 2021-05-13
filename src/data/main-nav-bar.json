@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Home",
+        "url": ""
+    },
+    {
+        "id": 2,
+        "name": "About me",
+        "url": "about"
+    },
+    {
+        "id": 3,
+        "name": "Skills",
+        "url": "skills"
+    },
+    {
+        "id": 4,
+        "name": "Experience",
+        "url": "experience"
+    },
+    {
+        "id": 5,
+        "name": "Playground",
+        "url": "avalon"
+    }
+]
