@@ -1,10 +1,9 @@
 import React from 'react';
-import HomeLayout from '../components/HomeLayout/HomeLayout';
 
-export default function AboutMePage(){
-    return (
-        <HomeLayout>
-                    <section class="mh-home" id="mh-home">
+export default function Home(){
+
+    return (        
+        <section class="mh-home" id="mh-home">
             <div class="home-ovimg">
                 <div class="container">
                     <div class="row xs-column-reverse section-separator vertical-middle-content home-padding">
@@ -34,14 +33,13 @@ export default function AboutMePage(){
                         <div class="col-sm-6">
                             <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
                                 <div class="img-border">
-                                    <img src="assets/images/hero.png" alt=""  class="img-fluid" />
+                                    <img src="assets/images/hero.png" alt=""  class="img-fluid"/>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>   
-        </HomeLayout>
-    );
+        </section>
+    )
 }
